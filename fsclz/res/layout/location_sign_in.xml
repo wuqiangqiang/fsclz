@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E7F3F8"
+    android:orientation="vertical" >
+    
+   <RelativeLayout 
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="8"
+      android:layout_margin="10dp"
+      android:background="@drawable/shape_white">
+        
+        <TextView
+           android:id="@+id/txt_time_title" 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="20dp"
+           android:textSize="18sp"
+           android:text="时间："/>
+        
+        <TextView 
+           android:id="@+id/system_time"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@id/txt_time_title"          
+           android:textSize="14sp"
+           android:text="2016年05月09日  17:25"
+           android:layout_toRightOf="@id/txt_time_title"
+           android:layout_marginLeft="5dp"/>
+        
+        <TextView
+           android:id="@+id/txt_coordinate_title" 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/txt_time_title"
+           android:layout_alignLeft="@id/txt_time_title"
+           android:layout_marginTop="20dp"
+           android:textSize="18sp"
+           android:text="坐标："/>
+        
+        <TextView 
+           android:id="@+id/loc_sign_longilati"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:layout_alignTop="@id/txt_coordinate_title" 
+           android:layout_toRightOf="@id/txt_coordinate_title"
+           android:textSize="14sp"
+           android:text="径度：25.2322\n纬度：25.2322"
+           android:layout_marginLeft="5dp"/>
+                
+         <TextView
+           android:id="@+id/txt_address_title" 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/loc_sign_longilati"
+           android:layout_alignLeft="@id/txt_time_title"
+           android:layout_marginTop="20dp"
+           android:textSize="18sp"
+           android:text="地址："/>
+         
+         <TextView 
+           android:id="@+id/loc_sign_address"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:layout_alignBottom="@id/txt_address_title" 
+           android:layout_toRightOf="@id/txt_address_title"
+           android:lines="1"
+           android:ellipsize="end" 
+           android:maxWidth="260dp"
+           android:textSize="14sp"
+           android:text="南通市经济技术开发区通盛大道188号"
+           android:layout_marginLeft="5dp"/>
+         
+         <TextView 
+           android:id="@+id/txt_map_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/txt_address_title"
+           android:layout_alignLeft="@id/txt_time_title"
+           android:layout_marginTop="20dp"
+           android:textSize="18sp"
+           android:text="地图："/>
+         
+         
+         <com.baidu.mapapi.map.MapView 
+             android:id="@+id/loc_sign_mapView"
+             android:layout_width="200dp"
+             android:layout_height="200dp"
+             android:layout_alignTop="@id/txt_map_title"
+             android:layout_toRightOf="@id/txt_map_title"
+             android:layout_marginLeft="5dp"
+             android:clickable="true"
+             />
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="2">
+        
+        <Button
+           android:id="@+id/btn_sign" 
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_margin="25dp"
+           android:text="签\u0020\u0020\u0020到"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:textColor="#ffffff"
+           android:background="@drawable/shape_register"/>
+        
+        <Button
+           android:id="@+id/btn_refresh" 
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_margin="25dp"
+           android:text="刷\u0020\u0020\u0020新"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:textColor="#ffffff"
+           android:background="@drawable/shape_register"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7F3F8"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <com.zrodo.fsclz.activity.CHScrollView
+            android:id="@+id/item_scroll_title"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:scrollbars="none" 
+            android:fadingEdge="none">
+
+            <LinearLayout
+                android:id="@+id/title_head"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@color/zrodoblue"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.zrodo.fsclz.activity.CHScrollView>
+
+        <ListView
+            android:id="@+id/scroll_list"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:cacheColorHint="#00000000"
+            android:fadingEdge="none" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadeScrollbars="false"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pie_chart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

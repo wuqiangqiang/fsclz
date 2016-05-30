@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="defineTheme" parent="android:Theme">
+        <item name="zrodoHeadViewStyle">@style/zrodo_head_style</item>
+    </style>
+
+    <style name="DefineTheme.NoTitle" parent="defineTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

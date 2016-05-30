@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="head" type="id"/>
+    <item name="head_left_btn" type="id"/>
+    <item name="head_middle_text" type="id"/>
+    <item name="head_right_btn" type="id"/>
+
+    <!--mode.xml 中图标对应的id -->
+    <item name="data_statistic" type="id"/>
+    <item name="data_warning" type="id"/>
+    <item name="data_query" type="id"/>
+    <item name="personal_setting" type="id"/>
+    <item name="location_inf" type="id"/>
+</resources>

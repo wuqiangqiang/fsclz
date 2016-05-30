@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义主题属性 -->
+    <attr name="zrodoHeadViewStyle" format="reference"/>
+
+    <eat-comment/>
+
+    <!--页面统一的标题头 -->
+    <declare-styleable name="ZrodoHeaderView">
+        <attr name="left_btn_text" format="string"/>
+        <attr name="right_btn_text" format="string"/>
+        <attr name="middle_text" format="string"/>
+    </declare-styleable>
+
+    <!--tab 页签 -->
+    <declare-styleable name="TabHeader">
+        <attr name="first_btn_text" format="string"/>
+        <attr name="second_btn_text" format="string"/>
+        <attr name="third_btn_text" format="string"/>
+        <attr name="tabNum" format="enum">
+            <enum name="Two" value="2"/>
+            <enum name="Third" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

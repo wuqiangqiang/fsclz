@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     
+     <com.zrodo.fsclz.widget.SlideMenu
+        android:id="@+id/slide_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include layout="@layout/layout_menu" />
+
+       <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/color_2"
+            android:orientation="vertical" >
+            
+               <include layout="@layout/data_statistic_datas" />
+            
+        </RelativeLayout>
+    </com.zrodo.fsclz.widget.SlideMenu>
+    
+</RelativeLayout>

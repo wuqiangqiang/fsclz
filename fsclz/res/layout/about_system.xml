@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e6e6e6"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical" 
+        android:layout_weight="3">
+
+        <ImageView
+            android:id="@+id/version_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/img_icon"/>
+
+        <TextView
+            android:id="@+id/txt_version_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/version_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColor="#666666"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lin_about_Soft"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/about_Soft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="关于本软件"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+                
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="24dp"
+                    android:layout_height="24sp"
+                    android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/icon_arrow" />
+                
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_update"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txt_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="检查更新"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+                
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="24dp"
+                    android:layout_height="24sp"
+                    android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/icon_arrow" />
+                
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <RelativeLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="5">
+        
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+         <TextView
+             android:id="@+id/txt_update"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="客服热线:"
+             android:textColor="#000000"
+             android:textSize="18sp" />
+        
+        <TextView
+             android:id="@+id/txt_update"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="0513-89169777"
+             android:textColor="#000000"
+             android:textSize="18sp" />
+         
+    </LinearLayout>
+        
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="智锐达仪器科技有限公司  版权所有"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="15sp"/>
+        
+    </RelativeLayout>
+    
+  
+    
+
+</LinearLayout>

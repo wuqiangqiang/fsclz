@@ -1,0 +1,56 @@
+<RelativeLayout   
+    xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:orientation="vertical"    
+    android:layout_width="match_parent"    
+    android:layout_height="match_parent"> 
+    
+    <LinearLayout
+       android:id="@+id/lin_chronometer" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="5dp"
+       android:gravity = "center_horizontal"  >
+        <Chronometer 
+           android:id="@+id/chronometer"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:format="%s"
+           android:textSize="20sp"
+           android:textColor="@color/red" 
+            />
+    </LinearLayout>
+    <SurfaceView android:id="@+id/videoView"    
+        android:visibility="visible"     
+        android:layout_width="match_parent"     
+        android:layout_height="match_parent"
+        >    
+    </SurfaceView>    
+        
+    <LinearLayout  
+    android:orientation="horizontal"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="28dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginBottom="5dp"   
+    android:layout_alignParentBottom="true"  >   
+    <Button  
+        android:id="@+id/record"  
+        android:layout_width="match_parent"  
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/shape_video"
+        android:textColor="@color/red"  
+        android:text="开始"/>  
+    <Button  
+        android:id="@+id/stop"  
+        android:layout_width="match_parent"  
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/shape_video"
+        android:textColor="@color/red"  
+        android:text="结束"
+        android:visibility="gone"/>  
+</LinearLayout>      
+</RelativeLayout>

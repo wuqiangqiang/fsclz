@@ -1,0 +1,116 @@
+<resources>
+
+    <!--
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello World, Date!</string>
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="login">登 录</string>
+    <string name="opt_hideLogin">隐身登录</string>
+    <string name="opt_silent">静音登录</string>
+    <string name="opt_openVibra">开启振动</string>
+    <string name="opt_acceptGroupMsg">接收群消息</string>
+    -->
+
+
+    <!-- other setting string -->
+    <string name="str_exit">确定要退出吗？</string>
+    <string name="app_name">佛山菜篮子</string>
+    <string name="version">版本</string>
+    <string name="make_sure">确\u0020\u0020\u0020定</string>
+    <string name="cancel">取\u0020\u0020\u0020消</string>
+    <string name="back">返回</string>
+    <string name="action_settings">Settings</string>
+    <string name="socket_connection">超时,请稍候</string>
+    <string name="FIATO">功能即将开放</string>
+
+    <string-array name="exLstGroupName">
+        <item>个人设置</item>
+        <item>网络设置</item>
+    </string-array>
+    <string-array name="exLstChild">
+        <item>主题设置,安全设置</item>
+        <item>密码设置</item>
+    </string-array>
+
+    <!-- login other string -->
+    <!-- xml -->
+    <string name="str_input_acchint">请输入用户名</string>
+    <string name="str_input_pwd">请输入密码</string>
+    <string name="str_login_failed">登录失败</string>
+    <string name="str_login_loading">登录中...</string>
+    <string name="login_btn">登 \u0020\u0020\u0020\u0020\u0020录</string>
+
+    <!-- bdlocation other string -->
+    <string name="bdlocation_submit">上传</string>
+    <string name="bdlocation_latitude_info">经度 : </string>
+    <string name="bdlocation_longitude_info">\n纬度 : </string>
+    <string name="bdlocation_not_null">不能为空</string>
+    <string name="bdlocation_subminting">正在上传</string>
+    <string name="bdlocation_submit_sucess">上传成功</string>
+    <string name="bdlocation_submit_failed">上传失败</string>
+    <string name="bdlocation_serverConection_failed">服务器连接异常</string>
+
+    <!-- changePasswrod other string -->
+    <string name="change_pwd_loding">资料提交中，请稍候..</string>
+    <string name="change_pwd_sucess">密码修改成功,请重新登录</string>
+    <string name="change_pwd_failed">原密码输入错误,密码修改失败..</string>
+
+    <!-- title msg info -->
+    <string name="apptitle">佛山菜篮子产品安全监测系统</string>
+    <string name="sample_collection">样本采集</string>
+
+    <!-- Tost msg info -->
+    <!-- login msg -->
+    <string name="login_name_empty">用户名不能为空</string>
+    <string name="login_pwd_empay">密码不能为空</string>
+    <string name="login_result_error">用户名密码错误</string>
+
+    <!-- personal center string -->
+    <string name="str_personal_center">个人中心</string>
+    <string name="str_personalinfo">个人信息</string>
+    <string name="call_me">联系我们</string>
+    <string name="about_version">关于菜篮子</string>
+    <string name="str_change_password">修改密码</string>
+    <string name="device_management">设备管理</string>
+
+    <!-- changePassword string -->
+    <string name="str_old_password">*原密码</string>
+    <string name="str_new_password">*新密码</string>
+    <string name="str_confirm_new_password">确认密码</string>
+    <string name="str_old_identical_new_pwd">新密码与原密码相同</string>
+    <string name="str_new_confirm_pwd_diff">两次输入的新密码不一致</string>
+    <string name="new_pwd_Invalid">新密码输入不合法</string>
+
+    <!-- ContactUS string -->
+    <string name="customer_hotline">客服热线</string>
+    <string name="website">http://www.fsclz.com/</string>
+    <string name="public_number">菜篮子服务公众号</string>
+    <string name="forum">菜篮子论坛</string>
+
+    <!-- DATA_STATICS_CHART string -->
+    <string name="str_day_chart">日报表</string>
+    <string name="str_month_chart">月报表</string>
+    <string name="str_year_chart">年报表</string>
+
+    <!-- system pulltoRefresh string -->
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="more">更多</string>
+    <string name="loading">正在加载...</string>
+
+    <!-- system update string -->
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，请立即更新</string>
+    <string name="soft_update_update">立即更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+
+</resources>
